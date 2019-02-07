@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    margin-right: 20px;
+}
+
+nav {
+    text-align: center;
+    margin: 5px;
+    border-style: dashed;
+    border-color: white;
+}
+
+.nav-link{
+    text-align: center;
+    margin: auto;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.img {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.spiderman{
+    text-align: center;
+    margin-top: 20px ;
+}
+
+.w3-green{
+    background-color: green;
+}
+
