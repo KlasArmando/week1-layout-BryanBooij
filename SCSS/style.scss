@@ -1,0 +1,33 @@
+$primary-color: black;
+$secundaire-color: white;
+
+body {
+  background-color: $primary-color;
+  nav {
+    a {
+      color: $secundaire-color;
+      margin: auto;
+      text-align: center;
+      transition: 0.7s;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: underline;
+      word-spacing: 1px;
+
+      &:hover {
+        background-color: $secundaire-color;
+        color: $primary-color;
+        transition: 0.7s;
+      }
+    }
+  }
+  div {
+    h1 {
+      text-align: center;
+      color: $secundaire-color;
+      padding: 5px;
+      margin: auto;
+    }
+  }
+}
+
+ 
